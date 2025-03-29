@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Redirect</title>
+    <script>
+        window.onload = function() {
+            // Define the two URLs
+            var urls = [
+                "https://issuu.com/kdvsmusicdepartment/docs/kdvs_museletter_march_2025",
+                "https://drive.google.com/file/d/1q_e5qcEZjgeG2X3KG6ik2x1eeTu8P_DC/view?usp=sharing"
+            ];
+            // Randomly pick one
+            var randomUrl = urls[Math.floor(Math.random() * urls.length)];
+            // Redirect
+            window.location.href = randomUrl;
+        };
+    </script>
+</head>
+<body>
+    <p>Redirecting...</p>
+</body>
+</html>
